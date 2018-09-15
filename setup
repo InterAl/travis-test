@@ -1,2 +1,10 @@
-echo "installing"
+echo "====== installing ======="
+
+echo "installing homebrew"
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null
+
+echo "homebrew installed"
+
+echo "testing vim"
 ./vimtest
