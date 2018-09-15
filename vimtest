@@ -1,7 +1,9 @@
 vim -u NONE -c "set nocp" -c "source vimscript"
 vimresult=$(cat vimresult)
-if [ "$vimresult" = "working" ]; then
+if [ "$vimresult" = "working!!!" ]; then
 	echo "vim test successful"
+    exit
 else
 	echo "vim test failed"
+    exit 1
 fi
