@@ -6,5 +6,19 @@ echo "installing homebrew"
 
 echo "homebrew installed"
 
+echo "installing dotfiles"
+
+cp -r dotfiles/. .
+
+echo "dotfiles installed"
+
+echo "installing bats"
+
+brew install bats
+
+echo "bats installed"
+
+./test
+
 echo "testing vim"
 ./vimtest

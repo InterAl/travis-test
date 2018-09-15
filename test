@@ -1,0 +1,5 @@
+#!/usr/bin/env bats
+
+@test "dummy test" {
+	[ 0 -eq 0 ]
+}
