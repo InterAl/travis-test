@@ -1,0 +1,3 @@
+vim -u NONE -c "set nocp" -c "source vimscript"
+vimresult=$(cat vimresult)
+[ "$vimresult" = "working" ]

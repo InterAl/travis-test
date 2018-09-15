@@ -1,0 +1,2 @@
+:execute "normal iworking\<esc>"
+:execute "wq! vimresult"
